@@ -13,9 +13,9 @@ class Vampire {
   }
     drink(){
       this.ouncesDrank +=10
-      if( this.thirsty = false && this.ouncesDrank < 50 ){
+      if( this.thirsty = false && this.ouncesDrank === 40 ){
     }else {
-      this.thirsty = false
+      this.thirsty = true
     }
     }
 
