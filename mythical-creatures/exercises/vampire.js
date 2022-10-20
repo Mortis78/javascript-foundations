@@ -16,7 +16,7 @@ class Vampire {
       if( this.ouncesDrank < 50){
         this.ouncesDrank +=10
       }else {
-        
+
         return 'I\'m too full to drink anymore!'
 
       }
