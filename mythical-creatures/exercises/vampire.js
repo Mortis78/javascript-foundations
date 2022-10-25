@@ -4,12 +4,13 @@ class Vampire {
     this.thirsty = true
     this.ouncesDrank = 0
     this.name = name
+    this.pet = pet || 'bat';
 
-    if(pet === undefined){
-      this.pet = 'bat';
-    }else {
-      this.pet = pet
-    }
+    // if(pet === undefined){
+    //   this.pet = 'bat';
+    // }else {
+    //   this.pet = pet
+    // }
   }
     drink(){
 
