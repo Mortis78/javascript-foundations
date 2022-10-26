@@ -6,11 +6,7 @@ class Vampire {
     this.name = name
     this.pet = pet || 'bat';
 
-    // if(pet === undefined){
-    //   this.pet = 'bat';
-    // }else {
-    //   this.pet = pet
-    // }
+
   }
     drink(){
 
