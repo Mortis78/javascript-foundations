@@ -15,7 +15,7 @@ describe('Medusa', function() {
     assert.instanceOf(medusa, Medusa);
   });
 
-  it.skip('should have a name', function() {
+  it('should have a name', function() {
     // instantiate a Medusa object with your name as an argument
     // instantiate another Medusa object with someone else's name as an argument
 
@@ -33,7 +33,7 @@ describe('Medusa', function() {
 
   // STOP! Skip down to the bottom of the file and pass the tests for Person and Statue!
 
-  it.skip('should gain a statue when staring at a person', function() {
+  it('should gain a statue when staring at a person', function() {
     var medusa = new Medusa('Eric');
     var victim1 = new Person('Robbie');
     var victim2 = new Person('Bob');
@@ -48,7 +48,7 @@ describe('Medusa', function() {
     assert.equal(medusa.statues[1].name, 'Bob');
   });
 
-  it.skip('should only be able to have three victims as statues', function() {
+  it('should only be able to have three victims as statues', function() {
     var medusa = new Medusa('Hannah');
     var victim1 = new Person('Pam');
     var victim2 = new Person('Khalid');
